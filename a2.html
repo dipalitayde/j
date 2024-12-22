@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+
+    <body>
+        <h3>its display the error</h3>
+        <code id="my"></code>
+
+        <script>
+
+            try{
+                tellalert("welcome alert!")
+            }
+
+            catch(err) {
+                document.getElementById("my").innerHTML = err.message;
+            }
+        </script>
+    </body>
+</html>
